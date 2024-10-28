@@ -1,3 +1,49 @@
+# Full-stack eCommerce website using the MERN stack: React JS, MongoDB, Express, and Node JS.
+
+### Develop the online store's front end with React JS, featuring product displays, a shopping cart, and user authentication for registration and login.
+
+### Construct the back end using Express, Node JS, and MongoDB. 
+
+### Create APIs to manage essential functions such as adding, displaying, and updating products, managing cart items, and handling user authentication. 
+
+### Develop an admin panel, enabling administrators to manage products directly on the platform. This tutorial offers a comprehensive guide to building a robust eCommerce application.
+
+
+## Features:
+
+<br>MERN stack (React.js, MongoDB, Express, Node.js) to build a complete eCommerce platform.
+
+### Front-End (React.js):
+
+<br>Product catalog to display available items
+
+<br>Shopping cart functionality
+
+<br>User authentication with login and registration pages
+
+### Back-End (Express, Node.js, MongoDB):
+
+<br>Develop RESTful APIs for:
+
+<br>Product management (add, display, update)
+
+<br>Cart management (update cart items)
+
+<br>User login and registration
+
+### Admin Panel:
+
+<br>Admin functionality to add and update products within the eCommerce platform
+
+## Technologies </>
+
+<br>ReactJS
+<br>MongoDB 
+<br>Express
+<br>NodeJS
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
