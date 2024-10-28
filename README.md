@@ -6,8 +6,7 @@
 
 ### Create APIs to manage essential functions such as adding, displaying, and updating products, managing cart items, and handling user authentication. 
 
-### Develop an admin panel, enabling administrators to manage products directly on the platform. This tutorial offers a comprehensive guide to building a robust eCommerce application.
-
+### Develop an admin panel, enabling administrators to manage products directly on the platform. 
 
 ## Features:
 
