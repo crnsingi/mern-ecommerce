@@ -16,7 +16,7 @@ const Navbar = () => {
         <li>Women</li>
         <li>Kids</li>
         </ul>
-        <div className="nav-login-cart">
+        <div className="nav-login-cart">50px;
             <button>Login</button>
             <img src={cart_icon} alt="" />
         </div>
