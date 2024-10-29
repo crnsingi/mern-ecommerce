@@ -68,3 +68,8 @@
 .nav-login-cart button:active{ 
     background: #f3f3f3;
 }
+
+.nav-cart-count{
+    width: 22px;
+
+}
