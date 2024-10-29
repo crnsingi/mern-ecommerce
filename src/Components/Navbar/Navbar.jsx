@@ -18,6 +18,7 @@ const Navbar = () => {
         </ul>
         <div className="nav-login-cart">
             <button>Login</button>
+            <img src={} alt="" />
         </div>
     </div>
   )
