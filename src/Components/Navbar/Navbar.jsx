@@ -10,6 +10,11 @@ const Navbar = () => {
             <img src={logo} alt="" />
             <p>Shopper</p>
         </div>
+        <ul className="nav-menu"></ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
     </div>
   )
 }
