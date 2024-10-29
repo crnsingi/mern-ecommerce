@@ -45,3 +45,7 @@
     border-radius: 10px;
     background: #FF4141;
 }
+
+.nav-login-cart{
+    display: flex;
+}
