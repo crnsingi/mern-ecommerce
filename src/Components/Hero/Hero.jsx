@@ -16,7 +16,8 @@ const Hero = () => {
                 <p>for everyone</p>
             </div>
             <div className="hero-latest-btn">
-                
+                <div>Latest Collection</div>
+
             </div>
         </div>
         <div className="hero-right">
