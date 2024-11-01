@@ -4,3 +4,8 @@
     display: flex;
 
 }
+
+.hero-left{
+    flex: 1;
+
+}
