@@ -18,3 +18,8 @@
     border-radius: 10px;
     background: #252525;
 }
+
+.popular-item{
+    margin-top: 50px;
+    display: flex;
+}
