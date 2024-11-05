@@ -8,5 +8,5 @@
 
 .item-prices{
     display: flex; 
-
+    gap: 20px;
 }
