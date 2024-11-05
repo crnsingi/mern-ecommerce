@@ -9,11 +9,9 @@ const Popular = () => {
         <h1>POPULAR IN WOMEN</h1>
         <hr />
         <div className='popular-item'>
-            {data_product.map((item)=>{
-                return <Item/>
-
+            {data_product.map((item,i)=>{
+                return <Item key={i} id={item.id} name={item.name}/>
             })}
-
         </div>
     </div>
   )
