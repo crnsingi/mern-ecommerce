@@ -7,6 +7,9 @@ const Offers = () => {
         <div className="offers-left">
 
         </div>
+        <div className="div offers-right">
+            
+        </div>
     </div>
   )
 }
