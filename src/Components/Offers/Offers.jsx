@@ -5,10 +5,10 @@ const Offers = () => {
   return (
     <div className='offers'>
         <div className="offers-left">
-
+            <h1></h1>
         </div>
         <div className="div offers-right">
-            
+
         </div>
     </div>
   )
