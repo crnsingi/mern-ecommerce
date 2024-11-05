@@ -26,3 +26,14 @@
     font-size: 22px;
     font-weight: 600;
 }
+
+.offers-left button{ 
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500px;
+}
