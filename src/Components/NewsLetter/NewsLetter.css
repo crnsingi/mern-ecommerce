@@ -36,4 +36,10 @@
 
 .newsletter input{ 
     width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 16px;
 }
