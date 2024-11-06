@@ -10,7 +10,11 @@ const Footer = () => {
             <p>SHOPPER</p>
         </div>
         <ul className="footer-links">
-            
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
         </ul>
     </div>
   )
