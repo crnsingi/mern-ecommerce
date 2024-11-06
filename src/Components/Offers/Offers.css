@@ -35,5 +35,6 @@
     border: none;
     color: white;
     font-size: 22px;
-    font-weight: 500px;
+    font-weight: 500;
+    margin-top: 30px;
 }
