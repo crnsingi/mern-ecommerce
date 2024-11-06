@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import footer_logo from '../Assets/logo_big.png'
+import instagram_icon from '../Assets/instagram_icon.png'
 
 const Footer = () => {
   return (
