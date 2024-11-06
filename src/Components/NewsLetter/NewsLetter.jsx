@@ -2,8 +2,8 @@ import React from 'react'
 
 const NewsLetter = () => {
   return (
-    <div>
-        
+    <div className='newsletter'>
+
     </div>
   )
 }
