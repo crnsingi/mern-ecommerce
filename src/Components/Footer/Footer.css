@@ -34,3 +34,7 @@
     display: flex;
     gap: 20px;
 }
+
+.footer-icons-container{
+    padding: 10px;
+}
