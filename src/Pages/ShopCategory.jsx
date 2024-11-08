@@ -7,6 +7,9 @@ const ShopCategory = (props) => {
   return (
     <div className='shop-category'>
       <img src={props.banner} alt="" />
+      <div className="shopcategory-indexSort">
+        
+      </div>
     </div>
   )
 }
