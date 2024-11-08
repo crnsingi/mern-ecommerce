@@ -17,7 +17,10 @@ const ShopCategory = (props) => {
         </div>
       </div>
       <div className="shopcategory-products">
-        
+        {all_product.map((item,i)=>{
+          
+        })}
+
       </div>
     </div>
   )
