@@ -10,6 +10,7 @@ const LoginSignup = () => {
           <input type="email" placeholder='Email Address'/>
           <input type="password" placeholder='Password' />
         </div>
+        <button>Continue</button>
       </div>
     </div>
   )
