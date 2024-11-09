@@ -12,6 +12,7 @@ const LoginSignup = () => {
         </div>
         <button>Continue</button>
         <p className="loginsignup-login">Already have an account? <span>Login Here</span></p>
+        <div className="loginsignup-agree"></div>
       </div>
     </div>
   )
