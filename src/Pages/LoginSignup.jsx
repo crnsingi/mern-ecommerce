@@ -5,7 +5,9 @@ const LoginSignup = () => {
     <div className='loginsignup'>
       <div className="loginsignup-container">
         <h1>Sign Up</h1>
+        <div className="loginsignup-fields">
 
+        </div>
       </div>
     </div>
   )
