@@ -1,6 +1,7 @@
 import React from 'react'
+import './Breadcrum.css'
 
-const Breadcrum = () => {
+const Breadcrum = (props) => {
   return (
     <div className='breadcrum'>
       
