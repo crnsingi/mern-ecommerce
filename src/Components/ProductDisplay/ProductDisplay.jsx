@@ -22,11 +22,11 @@ const ProductDisplay = (props) => {
         <div className="productdisplay-right">
             <h1>{product.name}</h1>
             <div className="productdisplay-right-star">
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <img src={star_icon} alt="" />
+                <img src={star_icon} alt="" />
+                <img src={star_icon} alt="" />
+                <img src={star_icon} alt="" />
+                <img src={star_dull_icon} alt="" />
             </div>
         </div>
     </div>
