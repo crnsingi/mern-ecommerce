@@ -27,6 +27,7 @@ const ProductDisplay = (props) => {
                 <img src={star_icon} alt="" />
                 <img src={star_icon} alt="" />
                 <img src={star_dull_icon} alt="" />
+                <p>(122)</p>
             </div>
         </div>
     </div>
