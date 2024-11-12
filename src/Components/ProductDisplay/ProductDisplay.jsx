@@ -18,6 +18,7 @@ const ProductDisplay = (props) => {
          </div>
         </div>
         <div className="productdisplay-right">
+            <h1>{product.name}</h1>
 
         </div>
     </div>
