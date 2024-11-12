@@ -7,3 +7,9 @@
     display: flex;
     gap: 17px;
 }
+
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
