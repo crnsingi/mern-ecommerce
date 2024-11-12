@@ -22,3 +22,13 @@
     width: 586px;
     height: 700px;
 }
+
+.productdisplay-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1{
+    
+}
