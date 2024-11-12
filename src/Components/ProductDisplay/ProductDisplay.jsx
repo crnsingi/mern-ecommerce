@@ -6,6 +6,7 @@ const ProductDisplay = () => {
     <div className='productdisplay'>
         <div className="productdisplay-left">
          <div className="productdisplay-img-list">
+            <img src="" alt="" />
 
          </div>
         </div>
