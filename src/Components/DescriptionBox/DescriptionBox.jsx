@@ -9,7 +9,8 @@ const DescriptionBox = () => {
             <div className="descriptionbox-nav-box fade">Reviews (122)</div>
         </div>
         <div className="descriptionbox-description">
-            <p></p>
+            <p>An e-commerce website is an online platform that facilitates the buying and selling of products or services over the internet.</p>
+            <p>E-commerce websites typically display products or services along with detailed descriptions</p>
 
         </div>
     </div>
