@@ -1,5 +1,7 @@
 .relatedproducts{
     display: flex;
     flex-direction: column;
-    alig-items: center;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
 }
