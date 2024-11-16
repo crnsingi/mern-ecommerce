@@ -38,7 +38,12 @@ const CartItems = () => {
             <h1>cart Totals</h1>
             <div>
                 <div className="cartitems-total-item">
-                    <p></p>
+                    <p>Subtotal</p>
+                    <p>${0}</p>
+                </div>
+                <hr />
+                <div className="cartitems-total-item">
+                    <p>Shipping Fee</p>
 
                 </div>
             </div>
