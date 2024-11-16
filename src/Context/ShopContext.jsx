@@ -12,8 +12,8 @@ const ShopContextProvider = (props) => {
         let cart = {};
         for (let index = 0; index < all_product.length; index++) {
             cart[index] = 0;
-            
         }
+        return cart;
 
      }
 
