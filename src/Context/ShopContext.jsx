@@ -9,6 +9,11 @@ const ShopContextProvider = (props) => {
      const contextValue = {all_product};
 
      const getDefaultCart = ()=>{
+        let cart = {};
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            
+        }
 
      }
 
