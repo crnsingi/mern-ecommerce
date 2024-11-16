@@ -15,6 +15,11 @@ const CartItems = () => {
         <p>Remove</p>
     </div>
     <hr />
+    <div>
+        <div className="cartitems-format">
+            <img src="" alt="" className='carticon-product-icon' />
+        </div>
+    </div>
     </div>
   )
 }
