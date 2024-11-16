@@ -21,9 +21,9 @@ const CartItems = () => {
         {
             return <div>
             <div className="cartitems-format">
-            <img src="" alt="" className='carticon-product-icon' />
-            <p></p>
-            <p></p>
+            <img src={e.image} alt="" className='carticon-product-icon' />
+            <p>{e.name}</p>
+            <p>{e.new_price}</p>
             <button className='cartitems-quantity'></button>
             <p></p>
             <img src={remove_icon} onClick={()=>{removeFromCart()}} alt="" />
