@@ -16,16 +16,14 @@ const CartItems = () => {
         <p>Remove</p>
     </div>
     <hr />
-    <div>
-        <div className="cartitems-format">
-            <img src="" alt="" className='carticon-product-icon' />
-            <p></p>
-            <p></p>
-            <button className='cartitems-quantity'></button>
-            <p></p>
-            <img src={remove_icon} onClick={()=>{removeFromCart()}} alt="" />
-        </div>
-    </div>
+    {all_product.map((e)=>{
+        if(CartItems[e.id]>0)
+        {
+            
+        }
+
+    })}
+
     </div>
   )
 }
