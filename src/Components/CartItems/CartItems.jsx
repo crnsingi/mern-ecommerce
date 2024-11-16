@@ -33,6 +33,9 @@ const CartItems = () => {
         }
         return null;
     })}
+    <div className="cartitems-down">
+        
+    </div>
     </div>
   )
 }
