@@ -89,6 +89,8 @@
     }
     .nav-logo-img{
         width: 40px;
-
+    }
+    .nav-logo p{
+        font-size: 25px;
     }
 }
