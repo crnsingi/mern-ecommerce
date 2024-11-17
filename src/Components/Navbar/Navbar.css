@@ -100,4 +100,7 @@
     .nav-login-cart{
         gap: 30px;
     }
+    .nav-login-cart button{
+        
+    }
 }
