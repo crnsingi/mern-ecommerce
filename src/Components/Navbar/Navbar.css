@@ -96,6 +96,8 @@
     .nav-menu{
         gap: 30px;
         font-size: 16px;
-
+    }
+    .nav-login-cart{
+        gap: 30px;
     }
 }
