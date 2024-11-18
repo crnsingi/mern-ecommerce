@@ -178,6 +178,7 @@
         top: 50px;
     }
     .nav-login-cart{
-        
+        transform: scale(0.8);
+
     }
 }
