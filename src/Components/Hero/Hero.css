@@ -69,4 +69,7 @@ media(max-width:1280px){
     .hero-left p{
         font-size: 60px;
     }
+    .hero-hand-icon img{
+        width: 80px;
+    }
 }
