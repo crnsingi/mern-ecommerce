@@ -51,5 +51,10 @@
         width: 170px;
         font-size: 13px;
     }
-
+    .item img{
+        width: 170px;
+    }
+    .item-price-old{
+        font-size: 13px;
+    }
 }
