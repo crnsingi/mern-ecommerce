@@ -66,4 +66,7 @@ media(max-width:1280px){
     .hero-left h2{
         font-size: 22px;
     }
+    .hero-left p{
+        font-size: 60px;
+    }
 }
