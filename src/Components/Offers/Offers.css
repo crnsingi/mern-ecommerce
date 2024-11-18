@@ -60,7 +60,11 @@
         font-size: 18px;
     }
     .offers-right img{
-        
+        width: 300px;
+    }
+    .offers-left button{
+        width: 220px;
+
     }
 
 }
