@@ -32,4 +32,8 @@
     .popular h1{
         font-size: 40px;
     }
+    .popular hr{ 
+        width: 160px;
+        height: 4px;
+    }
 }
