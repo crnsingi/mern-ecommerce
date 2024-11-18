@@ -29,4 +29,7 @@
     .popular{
         height: 70vh;
     }
+    .popular h1{
+        font-size: 40px;
+    }
 }
