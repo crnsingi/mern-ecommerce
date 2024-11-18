@@ -74,3 +74,12 @@
         gap: 5px;
     }
 }
+
+@media(max-width:500px){
+    .popular{
+        height: 90vh;
+    }
+    .popular-item{
+        display: grid;
+    }
+}
