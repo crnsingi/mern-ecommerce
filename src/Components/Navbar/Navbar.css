@@ -160,4 +160,7 @@
     .nav-menu-visible{
         display: flex;
     }
+    .nav-dropdown.open{
+        transform: rotate(90deg);
+    }
 }
