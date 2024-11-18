@@ -115,4 +115,8 @@
     .navbar{
         padding: 12px 30px;
     }
+    .nav-menu{
+        gap: 25px;
+        font-size: 14px;
+    }
 }
