@@ -83,6 +83,10 @@
     color: white;
 }
 
+.nav-dropdown{
+    display: none;
+}
+
 @media(max-width:1280px){
     .navbar{
         padding: 12px 50px;
@@ -136,5 +140,11 @@
 @media(max-width:800px){
     .navbar{
         padding: 10px 0px;
+    }
+    .nav-dropdown{
+        display: block;
+        width: 30px;
+        rotate: -90deg;
+        transition: 0.5s;
     }
 }
