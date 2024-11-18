@@ -164,3 +164,10 @@
         transform: rotate(90deg);
     }
 }
+
+@media(max-width:500px){
+    .navbar{
+        width: 8px 0px;
+        gap: 0;
+    }
+}
