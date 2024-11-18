@@ -130,4 +130,12 @@ media(max-width:800px){
     }
 }
 
+@media(max-width:50px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero-right{
+        display: none;
+    }
+}
 
