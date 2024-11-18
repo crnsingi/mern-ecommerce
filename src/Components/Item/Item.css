@@ -47,5 +47,8 @@
 }
 
 @media(max-width:1024px){
-    
+    .item{
+        width: 170px;
+    }
+
 }
