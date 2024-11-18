@@ -38,4 +38,7 @@
         width:220px;
         font-size: 14px;
     }
+    .item img{
+        width: 220px;
+    }
 }
