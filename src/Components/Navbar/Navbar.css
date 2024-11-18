@@ -171,6 +171,13 @@
         gap: 0;
     }
     .nav-logo{
-        transform: scale();
+        transform: scale(0.8);
+    }
+    .nav-menu{
+        height: 70px;
+        top: 50px;
+    }
+    .nav-login-cart{
+        
     }
 }
