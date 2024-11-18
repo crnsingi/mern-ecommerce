@@ -170,4 +170,7 @@
         width: 8px 0px;
         gap: 0;
     }
+    .nav-logo{
+        transform: scale();
+    }
 }
