@@ -140,5 +140,9 @@ media(max-width:800px){
     .hero-left h2{
         font-size: 18px;
     }
+    .hero-left p{
+
+    }
+    
 }
 
