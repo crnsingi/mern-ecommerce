@@ -61,13 +61,22 @@
 
 media(max-width:800px){
     .item{
-        width: 170px;
-        font-size: 13px;
+        width: 120px;
+        font-size: 12px;
     }
     .item img{
-        width: 170px;
+        width: 120px;
     }
     .item-price-old{
-        font-size: 13px;
+        font-size: 12px;
+    }
+}
+
+media(max-width:500px){
+    .item{
+        width: 160px;
+    }
+    .item img{
+        width: 160px;
     }
 }
