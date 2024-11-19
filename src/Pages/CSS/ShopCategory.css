@@ -91,6 +91,6 @@
 
 @media(max-width:500px){
     .shopcategory-products{
-        
+        grid-template-columns: 1fr 1fr;
     }
 }
