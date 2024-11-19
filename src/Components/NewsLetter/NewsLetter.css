@@ -107,6 +107,7 @@
 @media(max-width:800px){
     .newsletter{
         margin-bottom: 30px;
+        height:35vh;
     }
     .newsletter h1{
         font-size: 30px;
