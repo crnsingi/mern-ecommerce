@@ -81,4 +81,10 @@
     .shopcategory-products{
         width: 95%;
     }
+    .shopcategory-loadmore{
+        margin: 60px auto;
+        width: 150px;
+        height: 40px;
+        font-size: 13px;
+    }
 }
