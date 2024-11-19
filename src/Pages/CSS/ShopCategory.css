@@ -88,3 +88,9 @@
         font-size: 13px;
     }
 }
+
+@media(max-width:500px){
+    .shopcategory-products{
+        
+    }
+}
