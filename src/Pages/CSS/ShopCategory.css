@@ -58,4 +58,8 @@
     .shopcategory-indexSort p{
         font-size: 12px;
     }
+    .shopcategory-products{
+        width: 90%;
+        margin: 10px auto;
+    }
 }
