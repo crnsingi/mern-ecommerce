@@ -61,5 +61,12 @@
     .shopcategory-products{
         width: 90%;
         margin: 10px auto;
+        row-gap: 40px;
+    }
+    .shopcategory-products .item{
+        margin: auto;
+    }
+    .shopcategory-loadmore{
+        margin: 100px auto;
     }
 }
