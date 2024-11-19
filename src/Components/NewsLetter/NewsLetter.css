@@ -60,4 +60,10 @@
         margin-bottom: 120px;
         gap: 20px;
     }
+    .newsletter h1{
+        font-size: 36px;
+    }
+    .newsletter p{
+        font-size: 16px;
+    }
 }
