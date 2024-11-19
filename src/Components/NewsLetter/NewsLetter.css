@@ -78,3 +78,29 @@
         height: 60px;
     }
 }
+
+@media(max-width:1024px){
+    .newsletter{
+        margin-bottom: 60px;
+    }
+    .newsletter h1{
+        font-size: 30px;
+    }
+    .newsletter p{
+        font-size: 14px;
+    }
+    .newsletter div{
+        width: 500px;
+        height: 50px;
+    }
+    .newsletter div input{ 
+        width: 300px;
+        font-size: 14px;
+    }
+    .newsletter div button{ 
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+
