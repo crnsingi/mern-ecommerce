@@ -72,4 +72,7 @@
     .footer-logo img{
         width: 40px;
     }
+    .footer-logo p{
+        font-size: 25px;
+    }
 }
