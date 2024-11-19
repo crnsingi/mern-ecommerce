@@ -130,3 +130,29 @@
     }
 }
 
+@media(max-width:500px){
+    .newsletter{
+        margin-bottom: 30px;
+        height:35vh;
+    }
+    .newsletter h1{
+        font-size: 18px;
+    }
+    .newsletter p{
+        font-size: 12px;
+    }
+    .newsletter div{
+        width: 400px;
+        height: 40px;
+    }
+    .newsletter div input{ 
+        width: 200px;
+        font-size: 13px;
+    }
+    .newsletter div button{ 
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+
