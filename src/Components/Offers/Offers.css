@@ -98,3 +98,26 @@
         padding-top: 10px;
     }
 }
+
+@media(max-width:800px){
+    .offers{
+        margin-bottom: 60px;
+    }
+    .offers-left h1{
+        font-size: 22px;
+    }
+    .offers-left p{
+        font-size: 13px;
+    }
+    .offers-right img{
+        width: 180px;
+    }
+    .offers-left button{
+        width: 140px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .offers-right {
+        padding-top: 10px;
+    }
+}
