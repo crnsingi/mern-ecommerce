@@ -113,4 +113,7 @@
     .productdisplay-img-list{
         gap: 10px;
     }
+    .productdisplay-img-list img{
+        height: 120px;
+    }
 }
