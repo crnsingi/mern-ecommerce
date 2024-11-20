@@ -116,4 +116,8 @@
     .productdisplay-img-list img{
         height: 120px;
     }
+    .productdisplay-main-img{
+        width: auto;
+        height: 510px;
+    }
 }
