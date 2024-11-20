@@ -126,4 +126,11 @@
     .productdisplay-right h1{
         font-size: 22px;
     }
+    .productdisplay-right-stars{
+        gap: 3px;
+        font-size: 13px;
+    }
+    .productdisplay-right-prices{
+        
+    }
 }
