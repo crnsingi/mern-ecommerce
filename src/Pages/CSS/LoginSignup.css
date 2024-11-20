@@ -82,5 +82,10 @@
     }
     .loginsignup-fields{
         gap: 20px;
+        margin-top: 20px;
+    }
+    .loginsignup-fields input{
+        height: 65px;
+        width: 93%;
     }
 }
