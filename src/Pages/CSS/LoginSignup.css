@@ -104,4 +104,7 @@
     .loginsignup-container{
         padding: 20px 30px;
     }
+    .loginsignup-container h1{
+        font-size: 24px;
+    }
 }
