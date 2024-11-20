@@ -141,4 +141,7 @@
         margin-top: 20px;
         font-size: 20px;
     }
+    .productdisplay-right-sizes div{
+        padding: 14px 20px;
+    }
 }
