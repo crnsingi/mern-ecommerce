@@ -145,5 +145,8 @@
         width: auto;
         max-width: 500px;
     }
+    .cartitems-promobox input{
+        width: 100%;
+    }
 }
 
