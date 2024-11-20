@@ -88,4 +88,10 @@
         height: 65px;
         width: 93%;
     }
+    .loginsignup-container button{
+        width: 100%;
+    }
+    .loginsignup-login{
+        font-size: 16px;
+    }
 }
