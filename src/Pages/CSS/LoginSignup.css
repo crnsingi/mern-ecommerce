@@ -107,4 +107,7 @@
     .loginsignup-container h1{
         font-size: 24px;
     }
+    .loginsignup-fields{
+        margin-top: 20px;
+    }
 }
