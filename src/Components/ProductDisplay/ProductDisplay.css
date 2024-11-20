@@ -134,4 +134,11 @@
         margin: 10px 0px;
         font-size: 18px;
     }
+    .productdisplay-right-description{
+        font-size: 13px;
+    }
+    .productdisplay-right-size h1{
+        margin-top: 20px;
+        font-size: 20px;
+    }
 }
