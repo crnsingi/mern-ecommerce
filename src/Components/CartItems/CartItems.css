@@ -158,5 +158,8 @@
     .cartitems-format-main{
         display: none;
     }
+    .cartitems-format{
+        display: grid;
+    }
 }
 
