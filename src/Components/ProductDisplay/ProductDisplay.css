@@ -121,6 +121,9 @@
         height: 510px;
     }
     .productdisplay-right{
-        
+        margin: 0px 30px;
+    }
+    .productdisplay-right h1{
+        font-size: 22px;
     }
 }
