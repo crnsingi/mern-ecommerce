@@ -266,6 +266,10 @@
         gap: 8px;
     }
     .productdisplay-img-list img{
-        
+        height: 75px;
+    }
+    .productdisplay-main-img{
+        height: 330px;
+
     }
 }
