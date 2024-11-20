@@ -107,4 +107,7 @@
     .productdisplay{
         margin: 0px 60px;
     }
+    .productdisplay-left{
+        gap: 10px;
+    }
 }
