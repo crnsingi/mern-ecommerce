@@ -133,5 +133,8 @@
         flex-direction: column;
         gap: 80px;
     }
+    .cartitems-total{
+        margin: 0;
+    }
 }
 
