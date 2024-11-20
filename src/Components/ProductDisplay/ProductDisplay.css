@@ -251,3 +251,9 @@
         font-size: 10px;
     }
 }
+
+@media(max-width:500px){
+    .productdisplay{
+        flex-direction: column;
+    }
+}
