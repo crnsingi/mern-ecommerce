@@ -110,4 +110,7 @@
     .loginsignup-fields{
         margin-top: 20px;
     }
+    .loginsignup-fields input{
+        height: 50px;
+    }
 }
