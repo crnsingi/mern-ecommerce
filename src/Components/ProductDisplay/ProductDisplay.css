@@ -131,6 +131,7 @@
         font-size: 13px;
     }
     .productdisplay-right-prices{
-        
+        margin: 10px 0px;
+        font-size: 18px;
     }
 }
