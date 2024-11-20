@@ -144,4 +144,9 @@
     .productdisplay-right-sizes div{
         padding: 14px 20px;
     }
+    .productdisplay-right button{
+        width: 150px;
+        padding: 15px 0px;
+        margin-bottom: 20px;
+    }
 }
