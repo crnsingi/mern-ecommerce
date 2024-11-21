@@ -111,6 +111,12 @@ app.post('/addproduct',async (req,res)=>{
     })
 })
 
+// Creating API For deleting Products
+
+app.post('/removeproduct',async ()=>{
+    
+})
+
 app.listen(port,(error)=>{
     if(!error){
         console.log("Server Running on Port " +port)
