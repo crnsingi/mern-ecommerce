@@ -12,3 +12,9 @@ app.use(cors());
 
 //Database connection with MongoDB
 mongoose.connect("mongodb+srv://cesarricardo:Nicaise93$@cluster0.aequl.mongodb.net/e-commerce")
+
+//API creation 
+
+app.listen(port,()=>{
+    
+})
