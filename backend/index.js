@@ -89,6 +89,11 @@ app.post('/addproduct',async (req,res)=>{
     });
     console.log(product);
     await product.save();
+    console.log("saved");
+    res.json({
+        success:true,
+        name:req.body.name,
+    })
 })
 
 app.listen(port,(error)=>{
