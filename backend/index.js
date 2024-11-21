@@ -87,6 +87,7 @@ app.post('/addproduct',async (req,res)=>{
     {
         let last_product_array = products.slice(-1);
         let last_product = last_product_array[0];
+        id = last_product.id+1;
     }
 
 
