@@ -28,6 +28,13 @@ const storage = multer.diskStorage({
 }
 })
 
+const upload = multer({storage:storage})
+
+// Creating Upload Endpoint for images 
+app.post("/upload",upload.single('product'),()=>{
+    
+})
+
 app.listen(port,(error)=>{
     if(!error){
         console.log("Server Running on Port " +port)
