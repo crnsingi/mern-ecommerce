@@ -63,6 +63,10 @@ const Product = mongoose.model("Product",{
     new_price:{
         type:Number,
         required:true,
+    },
+    old_price:{
+        type:Number,
+        required:true,
     }
 })
 
