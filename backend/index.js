@@ -113,8 +113,8 @@ app.post('/addproduct',async (req,res)=>{
 
 // Creating API For deleting Products
 app.get('/allproducts',async (req,res)=>{
-    let products = await Product.find()
-
+    let products = await Product.find({});
+    console.log("All Products Fetched")
 })
 
 app.post('/removeproduct',async (req,res)=>{
