@@ -15,6 +15,10 @@ mongoose.connect("mongodb+srv://cesarricardo:Nicaise93$@cluster0.aequl.mongodb.n
 
 //API creation 
 
+app.get("/",()=>{
+    
+})
+
 app.listen(port,(error)=>{
     if(!error){
         console.log("Server Running on Port" +port)
