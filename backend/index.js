@@ -15,8 +15,8 @@ mongoose.connect("mongodb+srv://cesarricardo:Nicaise93$@cluster0.aequl.mongodb.n
 
 //API creation 
 
-app.get("/",()=>{
-    
+app.get("/",(req,res)=>{
+    res.send("Express App is Running")
 })
 
 app.listen(port,(error)=>{
