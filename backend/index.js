@@ -22,7 +22,7 @@ app.get("/",(req,res)=>{
 //Image Storage Engine
 
 const storage = multer.diskStorage({
-    destination: './upload'
+    destination: './upload/images'
 })
 
 app.listen(port,(error)=>{
