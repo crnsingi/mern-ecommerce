@@ -83,6 +83,8 @@ app.post('/addproduct',async (req,res)=>{
         id:req.body.id,
         name:req.body.name,
         image:req.body.image,
+        category:req.body.category,
+        
 
     })
 })
