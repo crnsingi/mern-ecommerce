@@ -67,6 +67,10 @@ const Product = mongoose.model("Product",{
     old_price:{
         type:Number,
         required:true,
+    },
+    date:{
+        type:Date,
+        default:Date.now,
     }
 })
 
