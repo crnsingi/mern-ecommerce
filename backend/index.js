@@ -44,7 +44,11 @@ app.post("/upload",upload.single('product'),(req,res)=>{
 
 const Product = mongoose.model("Product",{
     id:{
-        type:Number,
+        type: Number,
+        required:true,
+    },
+    name:{
+        type:String,
         required:true,
     }
 })
