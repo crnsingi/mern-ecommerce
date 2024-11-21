@@ -114,7 +114,8 @@ app.post('/addproduct',async (req,res)=>{
 // Creating API For deleting Products
 
 app.post('/removeproduct',async (req,res)=>{
-    await Product.findOneAndDelete({id:req.body.id})
+    await Product.findOneAndDelete({id:req.body.id});
+    console.log("Removed");
 })
 
 app.listen(port,(error)=>{
