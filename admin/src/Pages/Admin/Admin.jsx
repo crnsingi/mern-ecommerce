@@ -5,8 +5,7 @@ import Sidebar from '../../Components/Sidebar/Sidebar'
 const Admin = () => {
   return (
     <div className='admin'>
-        <Sidebar/>
-      
+        <Sidebar/> 
     </div>
   )
 }
