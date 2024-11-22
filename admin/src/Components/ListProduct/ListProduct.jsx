@@ -1,8 +1,9 @@
 import React from 'react'
+import './ListProduct.css'
 
 const ListProduct = () => {
   return (
-    <div>
+    <div className='list-product'>
       
     </div>
   )
