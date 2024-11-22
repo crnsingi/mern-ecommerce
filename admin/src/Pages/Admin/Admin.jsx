@@ -7,6 +7,9 @@ const Admin = () => {
   return (
     <div className='admin'>
         <Sidebar/> 
+        <Routes>
+            <Route path='/addproduct' />
+        </Routes>
     </div>
   )
 }
