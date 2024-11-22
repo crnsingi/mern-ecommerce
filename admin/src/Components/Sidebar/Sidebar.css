@@ -8,3 +8,8 @@
     height: 100vh;
     background: white;
 }
+
+.sidebar-item{
+    display: flex;
+    align-items: center;
+}
