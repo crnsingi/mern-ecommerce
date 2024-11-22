@@ -9,7 +9,7 @@ const Sidebar = () => {
         <Link to={'/addproduct'} style={{textDecoration:"none"}}>
         <img src={add_product_icon} alt="" />
         <div className="sidebar-item">
-
+            <p>Add product</p>
         </div>
         </Link>
     </div>
