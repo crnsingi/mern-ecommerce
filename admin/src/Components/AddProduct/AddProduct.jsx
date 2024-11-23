@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './AddProduct.css'
 import upload_area from '../../assets/upload_area.svg'
 
 const AddProduct = () => {
+
+    const [image,setImage] = useState(false);
+
+    
   return (
     <div className='add-product'>
         <div className="addproduct-itemfield">
