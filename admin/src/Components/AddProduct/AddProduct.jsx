@@ -7,6 +7,7 @@ const AddProduct = () => {
     const [image,setImage] = useState(false);
 
     const imageHandler = (e) =>{
+        setImage(e.target.files[0]);
 
     }
 
