@@ -19,7 +19,8 @@ const AddProduct = () => {
 
     }
     const changeHandler = (e) =>{
-        
+        setProductDetails({...productDetails,[e.target.name]:e.target.value})
+
     }
 
 
