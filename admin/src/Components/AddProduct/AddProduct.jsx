@@ -27,6 +27,7 @@ const AddProduct = () => {
             </select>
         </div>
         <div className="addproduct-itemfield">
+            <label htmlFor=""></label>
 
         </div>
     </div>
