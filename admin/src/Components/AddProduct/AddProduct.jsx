@@ -38,7 +38,7 @@ const AddProduct = () => {
         </div>
         <div className="addproduct-itemfield">
             <label htmlFor="file-input">
-            <img src={upload_area} className='addproduct-thumbnail-img' alt="" />
+            <img src={image?URL.createObjectURL:upload_area} className='addproduct-thumbnail-img' alt="" />
             </label>
             <input onChange={imageHandler} type="file" name='image' id='file-input' hidden />
         </div>
