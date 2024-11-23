@@ -10,7 +10,8 @@ const AddProduct = () => {
         </div>
         <div className="addproduct-price">
             <div className="addproduct-itemfield">
-                
+                <p>Price</p>
+
             </div>
 
         </div>
