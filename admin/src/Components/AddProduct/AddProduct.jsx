@@ -21,8 +21,9 @@ const AddProduct = () => {
         <div className="addproduct-itemfield">
             <p>Product Cateogry</p>
             <select name="category" className='add-product-selector'>
-                <option value="women"></option>
-
+                <option value="women">Women</option>
+                <option value="men">Men</option>
+                <option value="kid">Kid</option>
             </select>
         </div>
     </div>
