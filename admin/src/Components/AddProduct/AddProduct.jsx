@@ -33,7 +33,7 @@ const AddProduct = () => {
             </label>
             <input type="file" name='image' id='file-input' hidden />
         </div>
-        <button className=''></button>
+        <button className='addproduct-btn'>ADD</button>
     </div>
   )
 }
