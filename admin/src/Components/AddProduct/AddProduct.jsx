@@ -40,7 +40,7 @@ const AddProduct = () => {
 
         if(responseData.success)
         {
-            
+            product.image = responseData.image_url;
         }
 
     }
