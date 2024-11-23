@@ -31,3 +31,7 @@
     display: flex;
     gap: 40px;
 }
+
+.add-product-selector{
+    padding: 10px;
+}
