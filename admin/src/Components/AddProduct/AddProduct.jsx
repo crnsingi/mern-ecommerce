@@ -26,6 +26,9 @@ const AddProduct = () => {
                 <option value="kid">Kid</option>
             </select>
         </div>
+        <div className="addproduct-itemfield">
+
+        </div>
     </div>
   )
 }
