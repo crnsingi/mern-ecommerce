@@ -6,7 +6,11 @@ const AddProduct = () => {
 
     const [image,setImage] = useState(false);
 
-    
+    const imageHandler = (e) =>{
+        
+    }
+
+
   return (
     <div className='add-product'>
         <div className="addproduct-itemfield">
