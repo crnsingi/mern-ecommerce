@@ -36,7 +36,12 @@ const AddProduct = () => {
                 Accept:'application/json',
             },
             body:formData,
-        }).then((resp) => resp.json()).then((data)=>{responseData})
+        }).then((resp) => resp.json()).then((data)=>{responseData=data});
+
+        if(responseData.success)
+        {
+            
+        }
 
     }
 
