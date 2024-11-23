@@ -29,5 +29,5 @@
 
 .addproduct-price{
     display: flex;
-
+    gap: 40px;
 }
