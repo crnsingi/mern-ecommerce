@@ -11,9 +11,8 @@ const AddProduct = () => {
         <div className="addproduct-price">
             <div className="addproduct-itemfield">
                 <p>Price</p>
-
+                <input type="text" />
             </div>
-
         </div>
     </div>
   )
