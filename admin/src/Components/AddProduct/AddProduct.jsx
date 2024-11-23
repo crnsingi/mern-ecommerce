@@ -27,8 +27,9 @@ const AddProduct = () => {
             </select>
         </div>
         <div className="addproduct-itemfield">
-            <label htmlFor=""></label>
-
+            <label htmlFor="file-input">
+            <img src="" alt="" />
+            </label>
         </div>
     </div>
   )
