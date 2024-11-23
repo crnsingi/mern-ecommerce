@@ -19,7 +19,8 @@ const AddProduct = () => {
             </div>
         </div>
         <div className="addproduct-itemfield">
-            <p></p>
+            <p>Product Cateogry</p>
+            <select name="" id=""></select>
         </div>
     </div>
   )
