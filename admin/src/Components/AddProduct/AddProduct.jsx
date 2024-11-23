@@ -18,6 +18,9 @@ const AddProduct = () => {
         setImage(e.target.files[0]);
 
     }
+    const changeHandler = (e) =>{
+        
+    }
 
 
   return (
