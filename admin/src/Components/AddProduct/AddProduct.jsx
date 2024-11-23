@@ -42,7 +42,7 @@ const AddProduct = () => {
         </div>
         <div className="addproduct-itemfield">
             <p>Product Cateogry</p>
-            <select name="category" className='add-product-selector'>
+            <select value={productDetails.category} onCanPlay={changeHandler} name="category" className='add-product-selector'>
                 <option value="women">Women</option>
                 <option value="men">Men</option>
                 <option value="kid">Kid</option>
