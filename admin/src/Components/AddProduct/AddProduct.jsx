@@ -27,6 +27,8 @@ const AddProduct = () => {
         let responseData;
         let product = productDetails;
 
+        let formData = new FormData();
+
     }
 
   return (
