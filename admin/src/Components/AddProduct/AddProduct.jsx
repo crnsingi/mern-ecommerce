@@ -8,6 +8,9 @@ const AddProduct = () => {
             <p>Product title</p>
             <input type="text"  name='name' placeholder='Type here'/>
         </div>
+        <div className="addproduct-price">
+            
+        </div>
     </div>
   )
 }
