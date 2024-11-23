@@ -11,7 +11,11 @@ const AddProduct = () => {
         <div className="addproduct-price">
             <div className="addproduct-itemfield">
                 <p>Price</p>
-                <input type="text" />
+                <input type="text" name="old_price" placeholder='Type here'/>
+            </div>
+            <div className="addproduct-itemfield">
+                <p>Price</p>
+                <input type="text" name="old_price" placeholder='Type here'/>
             </div>
         </div>
     </div>
