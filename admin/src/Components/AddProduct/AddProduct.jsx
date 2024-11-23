@@ -18,6 +18,9 @@ const AddProduct = () => {
                 <input type="text" name="new_price" placeholder='Type here'/>
             </div>
         </div>
+        <div className="addproduct-itemfield">
+            <p></p>
+        </div>
     </div>
   )
 }
