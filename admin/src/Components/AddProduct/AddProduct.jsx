@@ -6,7 +6,8 @@ const AddProduct = () => {
 
     const [image,setImage] = useState(false);
     const [productDetails,setProductDetails] = useState({
-        
+        name:"",
+
     })
 
     const imageHandler = (e) =>{
