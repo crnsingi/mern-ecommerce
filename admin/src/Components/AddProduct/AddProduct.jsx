@@ -5,6 +5,9 @@ import upload_area from '../../assets/upload_area.svg'
 const AddProduct = () => {
 
     const [image,setImage] = useState(false);
+    const [productDetails,setProductDetails] = useState({
+        
+    })
 
     const imageHandler = (e) =>{
         setImage(e.target.files[0]);
@@ -38,7 +41,7 @@ const AddProduct = () => {
         </div>
         <div className="addproduct-itemfield">
             <label htmlFor="file-input">
-            <img src={image?URL.createObjectURL:upload_area} className='addproduct-thumbnail-img' alt="" />
+            <img src={image?URL.createObjectURL(image):upload_area} className='addproduct-thumbnail-img' alt="" />
             </label>
             <input onChange={imageHandler} type="file" name='image' id='file-input' hidden />
         </div>
