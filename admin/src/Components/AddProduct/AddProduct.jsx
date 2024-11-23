@@ -20,7 +20,10 @@ const AddProduct = () => {
         </div>
         <div className="addproduct-itemfield">
             <p>Product Cateogry</p>
-            <select name="" id=""></select>
+            <select name="category" className='add-product-selector'>
+                <option value="women"></option>
+
+            </select>
         </div>
     </div>
   )
