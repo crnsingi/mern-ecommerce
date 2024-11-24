@@ -13,7 +13,7 @@ const ListProduct = () => {
 
     useEffect(()=>{
         fetchInfo();
-    })
+    },[])
 
   return (
     <div className='list-product'>
@@ -28,6 +28,9 @@ const ListProduct = () => {
         </div>
         <div className="listproduct-allproducts">
             <hr />
+            {allproducts.map(()=>{
+                
+            })}
 
         </div>
     </div>
