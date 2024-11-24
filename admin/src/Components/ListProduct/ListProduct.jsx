@@ -12,7 +12,7 @@ const ListProduct = () => {
     }
 
     useEffect(()=>{
-        
+        fetchInfo();
     })
 
   return (
