@@ -140,6 +140,9 @@ const Users = mongoose.model('Users',{
     }
 })
 
+//Creating Endpoint for registering the user
+app.post('/signup', async())
+
 app.post('/removeproduct',async (req,res)=>{
     await Product.findOneAndDelete({id:req.body.id});
     console.log("Removed");
