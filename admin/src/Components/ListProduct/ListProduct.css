@@ -34,6 +34,9 @@
     cursor: pointer;
     margin: auto;
 }
+.listproduct-allproducts{
+    overflow-y: auto;
+}
 
 @media(max-wdith:800px){
     .list-product{
