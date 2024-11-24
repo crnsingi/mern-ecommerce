@@ -32,6 +32,8 @@ const ListProduct = () => {
                 return <div key={index} className="listproduct-format-main listproduct-format">
                     <img src={product.image} alt="" className="listproduct-product-icon" />
                     <p>{product.name}</p>
+                    <p>${product.old_price}</p>
+                    <p>${product.new_price}</p>
                 </div>
             })}
         </div>
