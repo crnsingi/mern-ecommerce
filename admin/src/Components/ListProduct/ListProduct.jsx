@@ -25,6 +25,7 @@ const ListProduct = () => {
             },
             body:JSON.stringify({id:id})
         })
+        await fetchInfo();
     }
 
   return (
