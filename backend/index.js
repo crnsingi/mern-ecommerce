@@ -124,6 +124,10 @@ const Users = mongoose.model('Users',{
     name:{
         type:String,
     },
+    email:{
+        type:String,
+        unique:true,
+    }
 })
 
 app.post('/removeproduct',async (req,res)=>{
