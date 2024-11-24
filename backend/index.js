@@ -130,6 +130,9 @@ const Users = mongoose.model('Users',{
     },
     password:{
         type:String,
+    },
+    cartData:{
+        type:Object,
     }
 })
 
