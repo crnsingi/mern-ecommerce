@@ -17,7 +17,10 @@ const ListProduct = () => {
     },[])
 
     const remove_product = async (id)=>{
-        
+        await fetch('http://localhost:4000/removeproduct',{
+            
+        })
+
     }
 
   return (
