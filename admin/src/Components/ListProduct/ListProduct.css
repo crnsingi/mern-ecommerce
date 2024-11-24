@@ -38,5 +38,9 @@
 @media(max-wdith:800px){
     .list-product{
         box-sizing: border-box;
+        width: 95%;
+        height: 100%;
+        padding: 10px 30px;
+        margin: 20px auto;
     }
 }
