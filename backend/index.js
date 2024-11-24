@@ -121,7 +121,9 @@ app.get('/allproducts',async (req,res)=>{
 // Schema creating for User model
 
 const Users = mongoose.model('Users',{
-
+    name:{
+        type:String,
+    },
 })
 
 app.post('/removeproduct',async (req,res)=>{
