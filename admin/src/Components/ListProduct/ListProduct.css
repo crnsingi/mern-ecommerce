@@ -34,3 +34,9 @@
     cursor: pointer;
     margin: auto;
 }
+
+@media(max-wdith:800px){
+    .list-product{
+        box-sizing: border-box;
+    }
+}
