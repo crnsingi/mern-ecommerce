@@ -5,6 +5,10 @@ const ListProduct = () => {
 
     const [allproducts,setAllProducts] = useState([]);
 
+    const fetchInfo = async ()=>{
+        
+    }
+
   return (
     <div className='list-product'>
         <h1>All Produtcs List</h1>
