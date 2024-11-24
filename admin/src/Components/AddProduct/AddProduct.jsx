@@ -44,6 +44,10 @@ const AddProduct = () => {
             console.log(product);
             await fetch('http://localhost:4000/addproduct',{
                 method: 'POST',
+                headers:{
+                    Accept:'application/json',
+
+                }
 
             })
         }
