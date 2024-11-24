@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './ListProduct.css'
 
 const ListProduct = () => {
@@ -6,9 +6,14 @@ const ListProduct = () => {
     const [allproducts,setAllProducts] = useState([]);
 
     const fetchInfo = async ()=>{
-        await fetch('http://localhost:4000/allproducts').then((res)=>res.json()).then((data)=>{setAllProducts(data)});
-
+        await fetch('http://localhost:4000/allproducts')
+        .then((res)=>res.json())
+        .then((data)=>{setAllProducts(data)});
     }
+
+    useEffect(()=>{
+        
+    })
 
   return (
     <div className='list-product'>
