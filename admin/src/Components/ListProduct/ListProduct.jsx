@@ -28,10 +28,12 @@ const ListProduct = () => {
         </div>
         <div className="listproduct-allproducts">
             <hr />
-            {allproducts.map(()=>{
-                
-            })}
+            {allproducts.map((product,index)=>{
+                return <div className="listproduct-format-main">
+                    
+                </div>
 
+            })}
         </div>
     </div>
   )
