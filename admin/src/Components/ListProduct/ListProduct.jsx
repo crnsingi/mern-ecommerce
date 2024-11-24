@@ -13,6 +13,9 @@ const ListProduct = () => {
             <p>Category</p>
             <p>Remove</p>
         </div>
+        <div className="listproduct-allproducts">
+
+        </div>
     </div>
   )
 }
