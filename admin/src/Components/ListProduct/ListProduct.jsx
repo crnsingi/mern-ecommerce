@@ -34,6 +34,8 @@ const ListProduct = () => {
                     <p>{product.name}</p>
                     <p>${product.old_price}</p>
                     <p>${product.new_price}</p>
+                    <p>{product.category}</p>
+                    <img src="" alt="" />
                 </div>
             })}
         </div>
