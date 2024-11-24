@@ -20,7 +20,8 @@ const ListProduct = () => {
         await fetch('http://localhost:4000/removeproduct',{
             method: 'POST',
             headers:{
-                
+                Accept: 'application/json',
+
             }
 
         })
