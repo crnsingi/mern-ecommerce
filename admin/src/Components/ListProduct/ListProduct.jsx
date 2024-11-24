@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './ListProduct.css'
+import cross_icon from '../../assets/cross_icon.png'
 
 const ListProduct = () => {
 
@@ -35,7 +36,7 @@ const ListProduct = () => {
                     <p>${product.old_price}</p>
                     <p>${product.new_price}</p>
                     <p>{product.category}</p>
-                    <img src="" alt="" />
+                    <img className='listproduct-remove=icon' src="" alt="" />
                 </div>
             })}
         </div>
