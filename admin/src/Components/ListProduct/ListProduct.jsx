@@ -4,7 +4,10 @@ import './ListProduct.css'
 const ListProduct = () => {
   return (
     <div className='list-product'>
-        <h1>All Produtcs</h1>
+        <h1>All Produtcs List</h1>
+        <div className="listproduct-format-main">
+            
+        </div>
     </div>
   )
 }
