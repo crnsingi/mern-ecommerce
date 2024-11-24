@@ -18,7 +18,7 @@ const ListProduct = () => {
 
   return (
     <div className='list-product'>
-        <h1>All Produtcs List</h1>
+        <h1>All Products List</h1>
         <div className="listproduct-format-main">
             <p>Products</p>
             <p>Title</p>
@@ -36,7 +36,7 @@ const ListProduct = () => {
                     <p>${product.old_price}</p>
                     <p>${product.new_price}</p>
                     <p>{product.category}</p>
-                    <img className='listproduct-remove=icon' src="" alt="" />
+                    <img className='listproduct-remove-icon' src={cross_icon} alt="" />
                 </div>
             })}
         </div>

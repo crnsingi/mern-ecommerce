@@ -23,6 +23,9 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
+    'extends': [
+    'plugin:react/recommended'
+],
     rules: {
       "react/jsx-uses-react": 2,   
       "react/jsx-uses-vars": "error" ,
