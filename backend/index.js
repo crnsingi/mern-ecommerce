@@ -144,7 +144,10 @@ const Users = mongoose.model('Users',{
 app.post('/signup', async(req,res)=>{
 
     let check = await Users.findOne({email:req.body.email});
-
+    if(check)
+{
+    return res.status(400).json({success:false,errors:"existing user found with same email address"})
+}
 })
 
 app.post('/removeproduct',async (req,res)=>{
