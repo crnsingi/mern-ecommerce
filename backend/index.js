@@ -133,6 +133,10 @@ const Users = mongoose.model('Users',{
     },
     cartData:{
         type:Object,
+    },
+    date:{
+        type:Date,
+        default:Date.now,
     }
 })
 
