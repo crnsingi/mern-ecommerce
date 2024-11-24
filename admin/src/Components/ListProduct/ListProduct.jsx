@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ListProduct.css'
 
 const ListProduct = () => {
+
+    const [allproducts,setAllProducts] = useState([]);
+
   return (
     <div className='list-product'>
         <h1>All Produtcs List</h1>
@@ -14,6 +17,7 @@ const ListProduct = () => {
             <p>Remove</p>
         </div>
         <div className="listproduct-allproducts">
+            <hr />
 
         </div>
     </div>
