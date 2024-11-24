@@ -118,6 +118,12 @@ app.get('/allproducts',async (req,res)=>{
     res.send(products);
 })
 
+// Schema creating for User model
+
+const Users = mongoose.model('Users',{
+
+})
+
 app.post('/removeproduct',async (req,res)=>{
     await Product.findOneAndDelete({id:req.body.id});
     console.log("Removed");
