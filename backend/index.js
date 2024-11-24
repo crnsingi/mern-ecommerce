@@ -127,6 +127,9 @@ const Users = mongoose.model('Users',{
     email:{
         type:String,
         unique:true,
+    },
+    password:{
+        type:String,
     }
 })
 
