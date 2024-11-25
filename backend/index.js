@@ -180,6 +180,11 @@ app.post('/removeproduct',async (req,res)=>{
     })
 })
 
+//creating endpoint for user login 
+app.post('/login',async (req,res)=>{
+    
+})
+
 // Creating API for getting all products
 
 app.listen(port,(error)=>{
