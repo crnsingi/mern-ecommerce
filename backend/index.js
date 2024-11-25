@@ -191,6 +191,7 @@ app.post('/login',async (req,res)=>{
                     id:user.id
                 }
             }
+            const token = jwt.sign(data,'secret_ecom');
         }
     }
 })
