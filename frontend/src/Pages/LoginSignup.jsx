@@ -12,7 +12,7 @@ const LoginSignup = () => {
   })
 
   const changeHandler = (e) => {
-    setFormData({})
+    setFormData({...formData,[e.target.name]:e.target})
   }
 
   const login = async ()=>{
