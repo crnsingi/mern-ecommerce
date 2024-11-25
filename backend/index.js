@@ -158,6 +158,8 @@ const user = new Users({
     password:req.body.password,
     cartData:cart,
 })
+
+await user.save();
 })
 
 app.post('/removeproduct',async (req,res)=>{
