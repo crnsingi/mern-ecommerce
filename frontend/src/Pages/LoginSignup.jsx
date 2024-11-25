@@ -32,7 +32,7 @@ const LoginSignup = () => {
         <h1>{state}</h1>
         <div className="loginsignup-fields">
           {state==="Sign Up"?<input name='username' value={formData.username} onChange={changeHandler} type="text" placeholder='Your Name' />:<></>}
-          <input type="email" placeholder='Email Address'/>
+          <input name='email' type="email" placeholder='Email Address'/>
           <input type="password" placeholder='Password' />
         </div>
         <button onClick={()=>{state==="Login"?login():signup()}}>Continue</button>
