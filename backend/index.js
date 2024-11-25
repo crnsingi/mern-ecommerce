@@ -149,9 +149,8 @@ app.post('/signup', async(req,res)=>{
     return res.status(400).json({success:false,errors:"existing user found with same email address"})
 }
 let cart ={};
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
+for (let i = 0; i < 300; i++) {
+    cart[i]=0; 
 }
 })
 
