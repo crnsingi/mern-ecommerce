@@ -10,7 +10,7 @@ const LoginSignup = () => {
   }
 
   const signup = async () =>{
-    
+
   }
 
 
@@ -25,7 +25,7 @@ const LoginSignup = () => {
           <input type="email" placeholder='Email Address'/>
           <input type="password" placeholder='Password' />
         </div>
-        <button>Continue</button>
+        <button onClick={}>Continue</button>
         {state==="Sign Up"
         ?<p className="loginsignup-login">Already have an account? <span onClick={()=>{setState("Login")}}>Login Here</span></p>
         :<p className="loginsignup-login">Create an account? <span onClick={()=>{setState("Sign Up")}}>Click here</span></p>}
