@@ -9,6 +9,10 @@ const LoginSignup = () => {
 
   }
 
+  const signup = async () =>{
+    
+  }
+
 
 
 
