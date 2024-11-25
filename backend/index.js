@@ -166,6 +166,8 @@ const data = {
         id:user.id
     }
 }
+
+const token = jwt.sign(data,'')
 })
 
 app.post('/removeproduct',async (req,res)=>{
