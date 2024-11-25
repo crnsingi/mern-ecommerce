@@ -208,6 +208,7 @@ app.get('/newcollectiond',async (req,res)=>{
     let products = await Product.find({});
     let newcollection = products.slice(1).slice(-8);
     console.log("NewCollection Fetched");
+    res.send(newcollection);
 })
 
 // Creating API for getting all products
