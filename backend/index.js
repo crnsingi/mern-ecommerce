@@ -204,8 +204,9 @@ app.post('/login',async (req,res)=>{
 })
 
 //creating endpoint for new collection data
-app.get('/newcollectiond',async ()=>{
-    
+app.get('/newcollectiond',async (req,res)=>{
+    let products = await Product.find()
+
 })
 
 // Creating API for getting all products
