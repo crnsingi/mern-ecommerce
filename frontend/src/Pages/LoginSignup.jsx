@@ -28,6 +28,7 @@ const LoginSignup = () => {
         Accept: 'application/form-data',
         'Content-Type':'application/json',
         },
+        body: JSON.stringify(formData),
       })
     }
   }
