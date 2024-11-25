@@ -187,9 +187,10 @@ app.post('/login',async (req,res)=>{
         const passCompare = req.body.password === user.password;
         if(passCompare){
             const data = {
-                
+                user:{
+                    id:user.id
+                }
             }
-
         }
     }
 })
