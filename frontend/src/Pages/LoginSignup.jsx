@@ -6,7 +6,7 @@ const LoginSignup = () => {
   const [state,setState] = useState("Login");
 
   const login = async ()=>{
-
+    console.log("Login Function Executed");
   }
 
   const signup = async () =>{
