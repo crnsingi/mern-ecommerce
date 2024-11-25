@@ -30,6 +30,10 @@ const LoginSignup = () => {
         },
         body: JSON.stringify(formData),
       }).then((response)=> response.json()).then((data)=>responseData=data)
+
+      if(responseData.success){
+        
+      }
       }
   
   return (
