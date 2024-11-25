@@ -155,6 +155,7 @@ for (let i = 0; i < 300; i++) {
 const user = new Users({
     name:req.body.username,
     email:req.body.email,
+    password:req.body.password,
 
 })
 })
