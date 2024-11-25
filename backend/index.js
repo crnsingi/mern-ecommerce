@@ -185,6 +185,9 @@ app.post('/login',async (req,res)=>{
     let user = await Users.findOne({email:req.body.email});
     if(user) {
         const passCompare = req.body.password === user.password;
+        if(passCompare){
+            
+        }
     }
 })
 
