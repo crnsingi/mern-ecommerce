@@ -5,6 +5,12 @@ const LoginSignup = () => {
 
   const [state,setState] = useState("Login");
 
+  const login = async ()=>{
+
+  }
+
+
+
 
   return (
     <div className='loginsignup'>
@@ -18,8 +24,7 @@ const LoginSignup = () => {
         <button>Continue</button>
         {state==="Sign Up"
         ?<p className="loginsignup-login">Already have an account? <span onClick={()=>{setState("Login")}}>Login Here</span></p>
-        :<p className="loginsignup-login">Create an account? <span onClick={()=>{setState("Login")}}>Click here</span></p>}
-
+        :<p className="loginsignup-login">Create an account? <span onClick={()=>{setState("Sign Up")}}>Click here</span></p>}
         <div className="loginsignup-agree"></div>
         <input type="checkbox" name='' id='' />
         <p>By continuing, i agree to the terms of the use & privacy policy.</p>
