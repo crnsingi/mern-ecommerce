@@ -10,7 +10,7 @@ const LoginSignup = () => {
   }
 
   const signup = async () =>{
-
+    console.log("Signup Function Executed");
   }
 
 
