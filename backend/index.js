@@ -153,7 +153,8 @@ for (let i = 0; i < 300; i++) {
     cart[i]=0; 
 }
 const user = new Users({
-    
+    name:req.body.username,
+
 })
 })
 
