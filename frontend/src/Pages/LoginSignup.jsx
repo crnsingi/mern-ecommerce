@@ -2,6 +2,11 @@ import React from 'react'
 import './CSS/LoginSignup.css'
 
 const LoginSignup = () => {
+
+  const [state,setState] = useState("Login");
+
+
+
   return (
     <div className='loginsignup'>
       <div className="loginsignup-container">
