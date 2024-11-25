@@ -11,7 +11,7 @@ const LoginSignup = () => {
       <div className="loginsignup-container">
         <h1>{state}</h1>
         <div className="loginsignup-fields">
-          <input type="text" placeholder='Your Name' />
+          {state==="Sign Up"}<input type="text" placeholder='Your Name' />
           <input type="email" placeholder='Email Address'/>
           <input type="password" placeholder='Password' />
         </div>
