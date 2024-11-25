@@ -12,7 +12,7 @@ const LoginSignup = () => {
   })
 
   const changeHandler = (e) => {
-    setFormData({...formData,[e.target.name]:e.target})
+    setFormData({...formData,[e.target.name]:e.target.value})
   }
 
   const login = async ()=>{
@@ -31,7 +31,7 @@ const LoginSignup = () => {
       <div className="loginsignup-container">
         <h1>{state}</h1>
         <div className="loginsignup-fields">
-          {state==="Sign Up"?<input type="text" placeholder='Your Name' />:<></>}
+          {state==="Sign Up"?<input name='username' type="text" placeholder='Your Name' />:<></>}
           <input type="email" placeholder='Email Address'/>
           <input type="password" placeholder='Password' />
         </div>
