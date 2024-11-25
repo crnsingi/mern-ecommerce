@@ -35,6 +35,9 @@ const LoginSignup = () => {
         localStorage.setItem('auth-token',responseData.token);
         window.location.replace("/");
       }
+      else{
+        alert(responseData.erros)
+      }
       }
   
   return (
