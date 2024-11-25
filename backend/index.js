@@ -183,6 +183,9 @@ app.post('/removeproduct',async (req,res)=>{
 //creating endpoint for user login 
 app.post('/login',async (req,res)=>{
     let user = await Users.findOne({email:req.body.email});
+    if(user) {
+        
+    }
 
 })
 
