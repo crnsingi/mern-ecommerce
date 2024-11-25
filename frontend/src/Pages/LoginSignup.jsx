@@ -22,7 +22,14 @@ const LoginSignup = () => {
   const signup = async () =>{
     console.log("Signup Function Executed",formData);
     let responseData;
-    await fetch()
+    await fetch('http://localhost:4000/signup',{
+      method: 'POST',
+      headers:{
+        Accept: 'application/form-data',
+        'Content-Type':'application/json',
+        },
+      })
+    }
   }
 
 
