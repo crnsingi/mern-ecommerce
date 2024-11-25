@@ -203,6 +203,11 @@ app.post('/login',async (req,res)=>{
     }
 })
 
+//creating endpoint for new collection data
+app.get('/newcollectiond',async ()=>{
+    
+})
+
 // Creating API for getting all products
 
 app.listen(port,(error)=>{
