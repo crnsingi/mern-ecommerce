@@ -160,6 +160,10 @@ const user = new Users({
 })
 
 await user.save();
+
+const data = {
+    
+}
 })
 
 app.post('/removeproduct',async (req,res)=>{
