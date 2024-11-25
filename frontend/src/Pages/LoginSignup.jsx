@@ -16,11 +16,11 @@ const LoginSignup = () => {
   }
 
   const login = async ()=>{
-    console.log("Login Function Executed");
+    console.log("Login Function Executed",formData);
   }
 
   const signup = async () =>{
-    console.log("Signup Function Executed");
+    console.log("Signup Function Executed",formData);
   }
 
 
