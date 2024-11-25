@@ -162,7 +162,9 @@ const user = new Users({
 await user.save();
 
 const data = {
-    
+    user:{ 
+        id:user.id
+    }
 }
 })
 
