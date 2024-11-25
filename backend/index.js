@@ -167,7 +167,8 @@ const data = {
     }
 }
 
-const token = jwt.sign(data,'')
+const token = jwt.sign(data,'secret_com');
+res.json({success:true,token})
 })
 
 app.post('/removeproduct',async (req,res)=>{
