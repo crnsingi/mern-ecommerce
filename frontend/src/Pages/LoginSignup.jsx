@@ -30,13 +30,8 @@ const LoginSignup = () => {
         },
         body: JSON.stringify(formData),
       }).then((response)=> response.json()).then((data)=>responseData=data)
-      })
-    }
-  }
-
-
-
-
+      }
+  
   return (
     <div className='loginsignup'>
       <div className="loginsignup-container">
